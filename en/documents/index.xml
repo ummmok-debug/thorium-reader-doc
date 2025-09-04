@@ -1,0 +1,54 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Documents</title><link>https://thorium.edrlab.org/en/documents/</link><description>Recent content in Documents on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/documents/index.xml" rel="self" type="application/rss+xml"/><item><title>Documents: Accessibility of this website</title><link>https://thorium.edrlab.org/en/documents/accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/documents/accessibility/</guid><description>
+&lt;p>The thorium reader website is actually not compliant with the Web Content Accessibility Guidelines (WCAG) 2.1 at the AA level.&lt;/p>
+&lt;p>We are working actively to get compliance before the end of 2024.&lt;/p>
+&lt;h2 id="accessibility-policy">Accessibility policy&lt;/h2>
+&lt;p>EDRLab takes the following steps to ensure the accessibility of the website:&lt;/p>
+&lt;ul>
+&lt;li>Include accessibility as a requirement for all web content. Content must meet WCAG 2.1 AA, and should meet AAA whenever possible.&lt;/li>
+&lt;li>Assign clear accessibility goals and responsibilities.&lt;/li>
+&lt;li>Ensure that content authors have accessibility knowledge and skills.&lt;/li>
+&lt;li>Include accessibility in our mission.&lt;/li>
+&lt;li>Include accessibility in our internal policies.&lt;/li>
+&lt;li>Conduct usability testing with participants with disabilities.&lt;/li>
+&lt;/ul>
+&lt;h2 id="comments">Comments&lt;/h2>
+&lt;p>We welcome your feedback on the accessibility of this website. Please let us know if you encounter any barriers to accessibility. Email: &lt;a href="mailto:contact@edrlab.org">contact@edrlab.org&lt;/a>.&lt;/p>
+&lt;p>We generally respond to accessibility comments via email within 3-5 business days.&lt;/p>
+&lt;p>Contact information for the publisher can be found in the &amp;ldquo;Sites and Addresses&amp;rdquo; section of the About page.&lt;/p>
+&lt;p>Compatibility with browsers and assistive technologies
+The LINA 25 website is designed to be compatible with assistive technologies and the latest two versions of major browsers. In older browsers, some aspects of the website may not be displayed optimally.&lt;/p>
+&lt;h2 id="technical-specifications">Technical Specifications&lt;/h2>
+&lt;p>This website uses the following technologies to comply with WCAG 2.1:&lt;/p>
+&lt;p>HTML
+WAI-ARIA
+CSS
+SVG&lt;/p></description></item><item><title>Documents: Privacy Policy of Thorium Reader</title><link>https://thorium.edrlab.org/en/documents/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/documents/privacy/</guid><description>
+&lt;p>22 November 2022&lt;/p>
+&lt;h2 id="owner-of-the-application">Owner of the application&lt;/h2>
+&lt;p>European Digital Reading Lab
+14 rue Alexandre Parodi
+75010 Paris
+France&lt;/p>
+&lt;h2 id="types-of-data-collected">Types of data collected&lt;/h2>
+&lt;p>The application does not collect Personal Data from its users.&lt;/p>
+&lt;p>The application sends two kinds of non-personal data to servers:&lt;/p>
+&lt;p>1/ Generic usage data: a notification is sent to an EDRLab telemery server each time the application is started. This information is for analytics only and not accessed by any third party. It is used to get information about the evolution of the number of installs of the application per operating system, the evolution of usage sessions and the main locales in use.&lt;/p>
+&lt;p>Parameters of such notification are:&lt;/p>
+&lt;ul>
+&lt;li>a timestamp,&lt;/li>
+&lt;li>the version of Thorium Reader,&lt;/li>
+&lt;li>the operating system of the device and its version,&lt;/li>
+&lt;li>the locale of the application at the time it is started,&lt;/li>
+&lt;li>if this is the first start of Thorium Reader after a fresh install.&lt;/li>
+&lt;/ul>
+&lt;p>The IP address of the device is not stored along with the above information.&lt;/p>
+&lt;p>It is not possible to opt-out from this notification.&lt;/p>
+&lt;p>2/ Readium LCP DRM information: a notification is sent to an LCP Server each time a protected publication is open. This is required by the LCP specification for checking if the license of use of the publication has been updated. There is not centralized LCP Server, each server is operated by the distributor of the protected publication acquired by the user.&lt;/p>
+&lt;p>Parameters of such notification are:&lt;/p>
+&lt;ul>
+&lt;li>a device identifier, automatically generated at the install of the application.&lt;/li>
+&lt;li>a device name, automatically generated at the install of the application.&lt;/li>
+&lt;/ul>
+&lt;p>The codebase of Thorium Reader is open-sourced and can therefore be fully inspected, with the exception of a small software library used as core for the Readium LCP DRM, which does not store or send any data.&lt;/p>
+&lt;h2 id="updates">Updates&lt;/h2>
+&lt;p>We may change the Privacy Policy from time to time. We will notify you by posting the revised Privacy Policy on this page and the date on which the last changes were made will be noted at the top of the page.&lt;/p></description></item></channel></rss>

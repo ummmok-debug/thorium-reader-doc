@@ -1,0 +1,183 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Accessibility</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/</link><description>Recent content in Accessibility on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://thorium.edrlab.org/en/th3/500_accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Accessibility information</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/300_accessibility/</guid><description>
+&lt;h2 id="a11y_info">Accessibility information&lt;/h2>
+&lt;p>Currently Thorium displays in the Book information panel, the accessibility information provided by the publisher. Thorium displays this information as it was defined. In case of doubt or
+complaint, please contact the distributor or the publisher of the file.&lt;/p></description></item><item><title>Th3: Reading with a screen reader</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/311_screenreaders/</guid><description>
+&lt;h2 id="reading-with-a-screen-reader">Reading with a screen reader&lt;/h2>
+&lt;p>When launching Thorium, if a screen reader is detected, the relative
+functions are activated.&lt;/p>
+&lt;p>Note that screen readers use a separate buffer to access the HTML
+content which results in the visual scroll / page offset to be out of
+sync. In other words, Thorium is generally not aware of the user's
+current reading location inside the screen reader buffer, unless the
+screen reader user triggers standard web API events (such as mouse click
+anywhere in the text, or keyboard tab into focusable HTML elements).&lt;/p>
+&lt;p>Accessibility features addressed to assistive technologies are strongly
+affected by the quality of the book files.&lt;/p>
+&lt;h2 id="keystrokes-common-to-nvda-and-jaws">Keystrokes common to NVDA and JAWS&lt;/h2>
+&lt;p>(contribution from Prashant Verma, DAISY Consortium)&lt;/p>
+&lt;p>For reading text, navigating in tables, navigating in the browser
+window, the insertion key can be replaced by the modifier key of the screen
+reader (e.g. the Caps Lock key).&lt;/p>
+&lt;h3 id="quick-keys-for-navigation">Quick keys for navigation&lt;/h3>
+&lt;p>The screen reader must be in navigation or virtual cursor mode.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Command&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Next title&lt;/td>
+&lt;td>&lt;kbd>H&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next table&lt;/td>
+&lt;td>&lt;kbd>T&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next chart&lt;/td>
+&lt;td>&lt;kbd>G&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next list&lt;/td>
+&lt;td>&lt;kbd>L&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next form field&lt;/td>
+&lt;td>&lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>List of elements&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F7&lt;/kbd> (works regardless of cursor mode)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>Use the above keys with the &lt;kbd>Shift&lt;/kbd> key to move to the previous
+item.&lt;/em>&lt;/p>
+&lt;h3 id="text">Text&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Command&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Previous character&lt;/td>
+&lt;td>&lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next character&lt;/td>
+&lt;td>&lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Previous word&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Say Next word&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Previous line&lt;/td>
+&lt;td>&lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next line&lt;/td>
+&lt;td>&lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Previous sentence&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↑&lt;/kbd> (Jaws only)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Next sentence&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↓&lt;/kbd> (Jaws only)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Read all&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Announce Font&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="tables">Tables&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Command&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cell to the right&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cell to the left&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cell below&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cell above&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="annotating--bookmarking">Annotating &amp;amp; bookmarking&lt;/h2>
+&lt;p>Based on the feedback we have received so far, it looks like it is very difficult for screen reader users to select an actual range of characters. Such assistive technology allows users to select text inside the screen reader&amp;rsquo;s virtual buffer, so the application isn&amp;rsquo;t aware that the user is reading at a particular location and is selecting text there.&lt;/p>
+&lt;p>Consequently, screen reader users prefer to use the bookmarking feature which anchors a simple, optionally-labelled bookmark to a coarse reading location (there is an icon button in the top toolbar, but the &lt;key>CTRL&lt;/key> + &lt;key>B&lt;/key> keyboard shortcut can be used too).
+Thorium actually does pick-up the mouse cursor click on a single text character, as this helps focus a bookmark on a more precise HTML location.&lt;/p>
+&lt;p>In Thorium, currently the bookmark label editor supports multiple lines of text input, which makes it possible to annotate coarse document locations. This can therefore be perceived as a replacement for the actual annotator, but there is no import/export of bookmarks data.&lt;/p>
+&lt;p>More feedback is welcome through our discussion tracker there:&lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
+&lt;h3 id="using-bookmarks-with-nvda">Using bookmarks with NVDA&lt;/h3>
+&lt;p>Windows screen readers use a virtual buffer
+for reading. To place a bookmark where you are currently reading
+press the key combination &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>Enter&lt;/kbd>,
+and NVDA will say &lt;em>&amp;ldquo;activate &amp;ldquo;&lt;/em>. This
+synchronizes the virtual buffer with the current real location so Thorium
+can deduce the object
+on which the cursor is located. Then use
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> to place a bookmark.
+A sound notification will inform you of the number of bookmarks
+in the current publication.&lt;/p>
+&lt;h2 id="external-ressources-for-screen-reader-use-in-thorium">External ressources for screen reader use in Thorium&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Th3: Accessibility policy</title><link>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/en/th3/500_accessibility/903_thorium-accessibility-policy/</guid><description>
+&lt;p>EDRLab is a non profit developpement laboratory and places accessibility as a core requirement of it&amp;rsquo;s actions. That include the developpement of Thorium Reader.&lt;/p>
+&lt;p>However, the core aspect of innovation and experimentation of our work may affect accessibility at some points.
+Funding limitations may also affect our action and will to provide the best reading experience for all readers.
+These are the main reasons why we cannot, at this moment, afford a full accessibility testing cycle at each release.&lt;/p>
+&lt;p>Any identified blockers are publicly informed and searchable via a dedicated Label &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibility on our Issue tracker&lt;/a> that are treated as priority by the development team.&lt;/p>
+&lt;h2 id="understanding-all-and-each-users-needs">understanding all and each users’ needs&lt;/h2>
+&lt;p>We capture feedback about customers’ experiences from an accessibility perspective through different channels:
+* Developpement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dedicated Label Accessibility&lt;/a>
+* Email &lt;a href="https://www.edrlab.org/contact/">contact form&lt;/a>
+* Indivdual feedback collected by our &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">members organisations dedicated to serving people with disabilities&lt;/a>&lt;/p>
+&lt;h2 id="thorium-reader-accessibility-features-are-informed">Thorium Reader accessibility features are informed&lt;/h2>
+&lt;p>When an accessibility feature is introduced, we make that information public through&lt;/p>
+&lt;ul>
+&lt;li>the version change log&lt;/li>
+&lt;li>a short mention on the website landing page&lt;/li>
+&lt;li>listed for reference in this website &lt;a href="../../500_accessibility">ressources section, accessibility page&lt;/a>&lt;/li>
+&lt;li>all accessibility related explanations are available in the documentation, not in a separate chapter or place.&lt;/li>
+&lt;/ul>
+&lt;p>We are maintaining a &lt;a href="https://rawcdn.githack.com/edrlab/thorium-reader-doc/4c82692352c92c2f3890522c16ce759689a181b8/content/en/th3/900_about_Thorium/903_thorium-vpat.html">VPAT (voluntary product accessibility template) for Thorium Reader&lt;/a>.&lt;/p>
+&lt;h2 id="support-for-assistive-technology">Support for assistive technology&lt;/h2>
+&lt;p>A specific attention is given to non visual access through screen readers.&lt;/p>
+&lt;p>As much as possible we intend to maintain a similar access path between visual and non visual access. Whenever necessary, we use dedicated technologies like ARIA-Role.&lt;/p>
+&lt;p>New functionalities are tested with screen readers.&lt;/p>
+&lt;h2 id="accessibility-testing">Accessibility testing&lt;/h2>
+&lt;p>Thorium EPUB accessible reading features are community testing through &lt;a href="https://epubtest.org/">epubtest.org&lt;/a>&lt;/p></description></item></channel></rss>

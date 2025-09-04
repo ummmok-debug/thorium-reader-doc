@@ -1,0 +1,184 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Accessibilité</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/</link><description>Recent content in Accessibilité on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>fr</language><atom:link href="https://thorium.edrlab.org/fr/th3/500_accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Informations sur l'accessibilité des livres</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/300_accessibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/500_accessibility/300_accessibility/</guid><description>
+&lt;h2 id="a11y_info">Informations sur l&amp;rsquo;accessibilité&lt;/h2>
+&lt;p>Actuellement, Thorium affiche dans le panneau d&amp;rsquo;informations sur le livre les informations d&amp;rsquo;accessibilité fournies par l&amp;rsquo;éditeur. Thorium affiche ces informations telles qu&amp;rsquo;elles ont été définies. En cas de doute ou
+réclamation, merci de contacter le distributeur ou l&amp;rsquo;éditeur du fichier.&lt;/p></description></item><item><title>Th3: Lire avec un lecteur d'écran</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/311_screenreaders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/500_accessibility/311_screenreaders/</guid><description>
+&lt;h2 id="lire-avec-un-lecteur-décran">Lire avec un lecteur d&amp;rsquo;écran&lt;/h2>
+&lt;p>Au lancement de Thorium, si un lecteur d&amp;rsquo;écran est détecté, le relatif
+les fonctions sont activées.&lt;/p>
+&lt;p>Notez que les lecteurs d&amp;rsquo;écran utilisent un tampon séparé pour accéder au code HTML.
+contenu qui entraîne le défilement visuel /le décalage de page hors de
+synchroniser. En d&amp;rsquo;autres termes, Thorium n&amp;rsquo;a généralement pas connaissance des informations de l&amp;rsquo;utilisateur.
+emplacement de lecture actuel à l&amp;rsquo;intérieur du tampon du lecteur d&amp;rsquo;écran, à moins que le
+l&amp;rsquo;utilisateur du lecteur d&amp;rsquo;écran déclenche des événements API Web standard (tels qu&amp;rsquo;un clic de souris)
+n&amp;rsquo;importe où dans le texte, ou une tabulation clavier dans des éléments HTML focalisables).&lt;/p>
+&lt;p>avertissement
+Attention !&lt;/p>
+&lt;p>Les fonctionnalités d&amp;rsquo;accessibilité destinées aux technologies d&amp;rsquo;assistance sont fortement
+affecté par la qualité des fichiers du livre.&lt;/p>
+&lt;h1 id="frappes-de-touches-communes-à-nvda-et-jaws">Frappes de touches communes à NVDA et JAWS&lt;/h1>
+&lt;p>(contribution de Prashant Verma, Consortium DAISY)&lt;/p>
+&lt;p>Pour lire du texte, naviguer dans les tableaux, naviguer dans le navigateur
+fenêtre, la touche d&amp;rsquo;insertion peut être remplacée par la touche de modification de l&amp;rsquo;écran
+lecteur (par exemple la touche Caps Lock).&lt;/p>
+&lt;h2 id="touches-rapides-pour-la-navigation">Touches rapides pour la navigation&lt;/h2>
+&lt;p>Le lecteur d&amp;rsquo;écran doit être en mode navigation ou curseur virtuel.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Commande&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Titre suivant&lt;/td>
+&lt;td>&lt;kbd>H&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tableau suivant&lt;/td>
+&lt;td>&lt;kbd>T&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Graphique suivant&lt;/td>
+&lt;td>&lt;kbd>G&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Liste suivante&lt;/td>
+&lt;td>&lt;kbd>L&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Champ de formulaire suivant&lt;/td>
+&lt;td>&lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Liste des éléments&lt;/td>
+&lt;td>&lt;kbd>INSERT&lt;/kbd> + &lt;kbd>F7&lt;/kbd> (fonctionne quel que soit le mode du curseur)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>Utilisez les touches ci-dessus avec la touche &lt;kbd>Shift&lt;/kbd> pour passer au précédent
+article.&lt;/em>&lt;/p>
+&lt;h2 id="texte">Texte&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Commande&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Caractère précédent&lt;/td>
+&lt;td>&lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Caractère suivant&lt;/td>
+&lt;td>&lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mot précédent&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Dites le mot suivant&lt;/td>
+&lt;td>&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ligne précédente&lt;/td>
+&lt;td>&lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ligne suivante&lt;/td>
+&lt;td>&lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Phrase précédente&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↑&lt;/kbd> (Jaws uniquement)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Phrase suivante&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>↓&lt;/kbd> (Jaws uniquement)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Lire tout&lt;/td>
+&lt;td>&lt;kbd>INSÉRER&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Annoncer la police&lt;/td>
+&lt;td>&lt;kbd>INSÉRER&lt;/kbd> + &lt;kbd>F&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>## Tableaux&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Action&lt;/th>
+&lt;th>Commande&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cellule à droite&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>→&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cellule à gauche&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>←&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cellule ci-dessous&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↓&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cellule ci-dessus&lt;/td>
+&lt;td>&lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>↑&lt;/kbd>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="annotation-et-mise-en-signet">Annotation et mise en signet&lt;/h2>
+&lt;p>D&amp;rsquo;après les commentaires que nous avons reçus jusqu&amp;rsquo;à présent, il semble qu&amp;rsquo;il soit très difficile pour les utilisateurs de lecteurs d&amp;rsquo;écran de sélectionner une gamme réelle de caractères. Cette technologie d&amp;rsquo;assistance permet aux utilisateurs de sélectionner du texte à l&amp;rsquo;intérieur de la mémoire tampon virtuelle du lecteur d&amp;rsquo;écran, de sorte que l&amp;rsquo;application ne sait pas que l&amp;rsquo;utilisateur lit à un endroit particulier et qu&amp;rsquo;il sélectionne du texte à cet endroit.&lt;/p>
+&lt;p>Par conséquent, les utilisateurs de lecteurs d&amp;rsquo;écran préfèrent utiliser la fonction de mise en signet, qui permet d&amp;rsquo;ancrer un signet simple, éventuellement étiqueté, à un emplacement de lecture approximatif (un bouton icône se trouve dans la barre d&amp;rsquo;outils supérieure, mais le raccourci clavier &lt;key>CTRL&lt;/key> + &lt;key>B&lt;/key> peut également être utilisé).
+Thorium détecte le clic du curseur de la souris sur un seul caractère du texte, ce qui permet de focaliser un signet sur un emplacement HTML plus précis.&lt;/p>
+&lt;p>Dans Thorium, l&amp;rsquo;éditeur d&amp;rsquo;étiquettes de signets prend actuellement en charge plusieurs lignes de texte, ce qui permet d&amp;rsquo;annoter des emplacements de documents volumineux. Il peut donc être perçu comme un remplacement de l&amp;rsquo;annotateur proprement dit, mais il n&amp;rsquo;y a pas d&amp;rsquo;importation/exportation de données de signets.&lt;/p>
+&lt;p>D&amp;rsquo;autres commentaires sont les bienvenus via notre forum de discussion : &lt;a href="https://github.com/edrlab/thorium-reader/discussions/2867">Message to Thorium screen reader users&amp;hellip; #2867&lt;/a>.&lt;/p>
+&lt;h3 id="utilisation-des-signets-avec-nvda">Utilisation des signets avec NVDA&lt;/h3>
+&lt;p>Les lecteurs d&amp;rsquo;écran Windows utilisent un tampon virtuel
+pour la lecture. Pour placer un signet à l&amp;rsquo;endroit où vous êtes en train de lire
+appuyez sur la combinaison de touches &lt;kbd>NVDA&lt;/kbd> + &lt;kbd>Enter&lt;/kbd>,
+et NVDA dira &lt;em>&amp;ldquo;activer &amp;ldquo;&lt;/em>. Ceci
+synchronise la mémoire tampon virtuelle avec l&amp;rsquo;emplacement réel actuel, de sorte que Thorium
+puisse déduire l&amp;rsquo;objet
+sur lequel se trouve le curseur. Utilisez ensuite
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>B&lt;/kbd> pour placer un signet.
+Une notification sonore vous informera du nombre de signets
+dans la publication en cours.&lt;/p>
+&lt;h2 id="ressources-externes-pour-lutilisation-du-lecteur-décran-dans-thorium-en-anglais">Ressources externes pour l&amp;rsquo;utilisation du lecteur d&amp;rsquo;écran dans Thorium (en anglais)&lt;/h2>
+&lt;div lang="en">
+&lt;ul>
+&lt;li>&lt;a href="https://daisy.org/guidance/info-help/guidance-training/reading-systems/thorium-epub-reader-quick-start-guide/">The DAISY Consortium Thorium Reader Getting Started Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://daisy.org/news-events/tag/thorium/">The DAISY Consortium Thorium Archives Page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/div></description></item><item><title>Th3: Politique d'accessibilité</title><link>https://thorium.edrlab.org/fr/th3/500_accessibility/903_thorium-accessibility-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/fr/th3/500_accessibility/903_thorium-accessibility-policy/</guid><description>
+&lt;p>EDRLab est un laboratoire de développement à but non lucratif et place l&amp;rsquo;accessibilité au cœur de ses actions. Cela inclut le développement de Thorium Reader.&lt;/p>
+&lt;p>Cependant, l’aspect central de l’innovation et de l’expérimentation de notre travail peut affecter l’accessibilité à certains moments.
+Les limitations de financement peuvent également affecter notre action et notre volonté d&amp;rsquo;offrir la meilleure expérience de lecture à tous les lecteurs.
+Ce sont les principales raisons pour lesquelles nous ne pouvons pas, à l’heure actuelle, nous permettre un cycle complet de tests d’accessibilité à chaque version.&lt;/p>
+&lt;p>Tous les bloqueurs identifiés sont informés publiquement et consultables via une étiquette dédiée &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Accessibilité sur notre outil de suivi des problèmes&lt;/a> qui sont traités en priorité par l’équipe de développement.&lt;/p>
+&lt;p>## comprendre tous les besoins de chaque utilisateur
+Nous recueillons les commentaires sur les expériences des clients du point de vue de l&amp;rsquo;accessibilité via différents canaux :
+*Développement &lt;a href="https://github.com/edrlab/thorium-reader/issues?q=is%3Aissue+is%3Aopen+label%3Aaccessibility">Issue tracker dédié Label Accessibility&lt;/a>
+*E-mail &lt;a href="https://www.edrlab.org/contact/">formulaire de contact&lt;/a>
+*Commentaires individuels recueillis par nos &lt;a href="https://members.edrlab.org/categories/serving-persons-with-print-disabilities/">organisations membres dédiées au service des personnes handicapées&lt;/a>&lt;/p>
+&lt;p>## Les fonctionnalités d&amp;rsquo;accessibilité du Thorium Reader sont informées&lt;/p>
+&lt;p>Lorsqu&amp;rsquo;une fonctionnalité d&amp;rsquo;accessibilité est introduite, nous rendons cette information publique via
+*le journal des changements de version
+*une courte mention sur la landing page du site
+*répertorié pour référence sur ce site Web &lt;a href="../../400_ressources/300_accessibility">section ressources, page accessibilité&lt;/a>
+*toutes les explications liées à l&amp;rsquo;accessibilité sont disponibles dans la documentation, et non dans un chapitre ou un endroit séparé.&lt;/p>
+&lt;h2 id="prise-en-charge-des-technologies-dassistance">Prise en charge des technologies d&amp;rsquo;assistance&lt;/h2>
+&lt;p>Une attention particulière est portée aux accès non visuels via les lecteurs d&amp;rsquo;écran.
+Dans la mesure du possible, nous avons l&amp;rsquo;intention de maintenir un chemin d&amp;rsquo;accès similaire entre l&amp;rsquo;accès visuel et non visuel. Chaque fois que cela est nécessaire, nous utilisons des technologies dédiées comme ARIA-Role.&lt;/p>
+&lt;p>Les nouvelles fonctionnalités sont testées avec des lecteurs d&amp;rsquo;écran.&lt;/p>
+&lt;h2 id="tests-daccessibilité">Tests d&amp;rsquo;accessibilité&lt;/h2>
+&lt;pre>&lt;code>*Tests communautaires via [epubtest.org](https://epubtest.org/)&lt;/code>&lt;/pre></description></item></channel></rss>

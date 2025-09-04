@@ -1,0 +1,232 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thorium Reader – Recursos</title><link>https://thorium.edrlab.org/es/th3/400_ressources/</link><description>Recent content in Recursos on Thorium Reader</description><generator>Hugo -- gohugo.io</generator><language>es</language><atom:link href="https://thorium.edrlab.org/es/th3/400_ressources/index.xml" rel="self" type="application/rss+xml"/><item><title>Th3: Requisitos mínimos del sistema</title><link>https://thorium.edrlab.org/es/th3/400_ressources/390_requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/390_requirements/</guid><description>
+&lt;p>El soporte de la plataforma lo proporciona Electron, tal como se define en el &lt;a href="https://github.com/electron/electron/blob/main/README.md#platform-support">archivo Readme del repositorio de Github de Electron.&lt;/a>&lt;/p>
+&lt;p>Cada versión de Electron proporciona binarios para macOS, Windows y Linux.&lt;/p>
+&lt;ul>
+&lt;li>macOS (Big Sur y superiores): Electron proporciona binarios Intel y Apple Silicon/ARM de 64 bits para macOS.&lt;/li>
+&lt;li>Windows (Windows 10 y posteriores): Electron proporciona binarios ia32 (x86), x64 (amd64) y arm64 para Windows. La compatibilidad con Windows en ARM se agregó en Electron 5.0.8. La compatibilidad con Windows 7, 8 y 8.1 se eliminó en Electron 23, de acuerdo con la política de desuso de Windows de Chromium.&lt;/li>
+&lt;li>Linux: Los binarios precompilados de Electron están compilados en Ubuntu 20.04. También se ha verificado que funcionan en:
+&lt;ul>
+&lt;li>Ubuntu 18.04 y posteriores&lt;/li>
+&lt;li>Fedora 32 y posteriores&lt;/li>
+&lt;li>Debian 10 y posteriores&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Thorium 3.0 tiene problemas de memoria en Linux, como se documenta en el número &lt;a href="https://github.com/edrlab/thorium-reader/issues/2519">2519&lt;/a>&lt;/p></description></item><item><title>Th3: Atajos de teclado</title><link>https://thorium.edrlab.org/es/th3/400_ressources/402_keyboard-shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/402_keyboard-shortcuts/</guid><description>
+&lt;p>{{&amp;lt; alert info &amp;gt;}} Información&lt;/p>
+&lt;p>La tecla &lt;kbd>Shift&lt;/kbd> está representada por una flecha vacía que apunta hacia arriba en algunos teclados: &lt;kbd>&lt;b>⇧&lt;/b>&lt;/kbd> .&lt;/p>
+&lt;p>La tecla &lt;kbd>Ctrl&lt;/kbd> se reemplaza por la tecla &lt;kbd>Cmd&lt;/kbd> en los teclados Mac.&lt;/p>
+&lt;p>{{&amp;lt; /alert&amp;gt;}}&lt;/p>
+&lt;dl id="definitionList"> &lt;dt>Create annotation (`AnnotationsCreate`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyA&lt;/kbd>
+&lt;/dt> &lt;dd> When a text is selected, it will be marked as annotation and the annotation dialog box will open to allow additional text and select of color and stroke. &lt;/dd> &lt;dt>Quick create annotation (`AnnotationsCreateQuick`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyQ&lt;/kbd>
+&lt;/dt> &lt;dd> When a text is selected, it will be marked as annotation without opening the annotation dialog box &lt;/dd> &lt;dt>Toggle annotation marks in the margin or in the text (`AnnotationsToggleMargin`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyZ&lt;/kbd>
+&lt;/dt> &lt;dd>Changes the Annotations marks from the text to the margin or reverse. &lt;/dd> &lt;dt>Next audio (`AudioNext`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit3&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "next" command for audio (TTS or EPUB3 Media Overlays readaloud, or "forward" for audiobooks) &lt;/dd> &lt;dt>Next audio Alternative (`AudioNextAlt`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Digit3&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "next" command for audio (TTS or EPUB3 Media Overlays readaloud, or "forward" for audiobooks) &lt;/dd> &lt;dt>Play or pause audio (`AudioPlayPause`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit2&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "play" or "pause" toggle commands for audio (TTS or EPUB3 Media Overlays readaloud) &lt;/dd> &lt;dt>Previous audio (`AudioPrevious`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit1&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, calls the "previous" command for audio (TTS or EPUB3 Media Overlays readaloud, or "rewind" for audiobooks) &lt;/dd> &lt;dt>Alternative previous audio (`AudioPreviousAlt`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Digit1&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "previous" command for audio (TTS or EPUB3 Media Overlays readaloud, or "rewind" for audiobooks). Alternative shortcut key. &lt;/dd> &lt;dt>Stop audio (`AudioStop`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit4&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, calls the "stop" command for audio (TTS or EPUB3 Media Overlays readaloud, or "pause" for audiobooks) &lt;/dd> &lt;dt>Close the book (`CloseReader`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyW&lt;/kbd> &lt;/dt> &lt;dd>in reader window, closes the window and returns to the library view. &lt;/dd> &lt;dt>Fixed Layout Zoom In (`FXLZoomIn`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit9&lt;/kbd>
+&lt;/dt> &lt;dd>Zoom in a fixed layout page &lt;/dd> &lt;dt>Fixed Layout Zoom out (`FXLZoomOut`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit8&lt;/kbd>
+&lt;/dt> &lt;dd>Zoom out a fixed layout page &lt;/dd> &lt;dt>Fixed Layout Zoom (`FXLZoomReset`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Digit0&lt;/kbd>
+&lt;/dt> &lt;dd>Reset to 100% zoom on a fixed layout page &lt;/dd> &lt;dt>Main content(`FocusMain`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F10&lt;/kbd> &lt;/dt> &lt;dd> in reader and library windows, moves the keyboard focus to the "main" area landmark (in the reader view, this is immediately before the frame that displays publication content) &lt;/dd> &lt;dt>Go to page (`FocusReaderGotoPage`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyP&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, moves the keyboard focus to the "goto page" section in the navigation panel &lt;/dd> &lt;dt>Navigation (`FocusReaderNavigation`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyN&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, moves the keyboard focus to the navigation panel (table of contents, bookmarks, etc.) &lt;/dd> &lt;dt>Table Of Content (`FocusReaderNavigationTOC`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>KeyN&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, moves the keyboard focus to the navigation panel, but more specifically into the table of contents, and if possible at the detected heading / closest to the reading location. &lt;/dd> &lt;dt>Reader settings (`FocusReaderSettings`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyS&lt;/kbd> &lt;/dt> &lt;dd>in reader window, moves the keyboard focus to the settings panel (user preferences for displaying publication content) &lt;/dd> &lt;dt>Search (`FocusSearch`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyF&lt;/kbd>
+&lt;/dt> &lt;dd>Available from the library and the reading winfos. In library window, moves the keyboard focus to the search text input of local bookshelf or OPDS feed. In reader window, moves the keyboard focus to the publication-wide search text input. &lt;/dd> &lt;dt>Toolbar (`FocusToolbar`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>KeyT&lt;/kbd>
+&lt;/dt> &lt;dd>in reader and library windows, moves the keyboard focus to the top horizontal toolbar, immediately before the "skip" link (which itself moves focus to the "main" area landmark) &lt;/dd> &lt;dt>Next chapter (`NavigateNextChapter`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowRight&lt;/kbd>
+&lt;/dt> &lt;dd> in reader window, move to previous or next "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents). &lt;/dd> &lt;dt>Next chapter (`NavigateNextChapterAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>PageDown&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, move to previous or next "chapter" (spine item in the reading order of the publication). Note that the keyboard focus is automatically moved to the "main" area landmark, which is immediately before the frame that displays publication content (just like when following / activating a link in the table of contents). &lt;/dd> &lt;dt>Next History (`NavigateNextHistory`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Backspace&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, go back or forward in the navigation history: Beginning or End of the publication &lt;/dd> &lt;dt>Next library page (`NavigateNextLibraryPage`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowRight&lt;/kbd>
+&lt;/dt> &lt;dd>In the library view, display the next set of books &lt;/dd> &lt;dt>Next library page alternative(`NavigateNextLibraryPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Period&lt;/kbd>
+&lt;/dt> &lt;dd>In the library view, display the next set of books (alternative keyboard shortcut) &lt;/dd> &lt;dt>Next Catalogue page (`NavigateNextOPDSPage`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>ArrowRight&lt;/kbd>
+&lt;/dt> &lt;dd> in library window for Catalogues (OPD) feeds, activates the next pagination links &lt;/dd> &lt;dt>Next Catalogue page (`NavigateNextOPDSPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Period&lt;/kbd>
+&lt;/dt> &lt;dd> in library window for Catalogues (OPD) feeds, activates the next pagination links (alternative keyboard shortcut) &lt;/dd> &lt;dt>Next page (`NavigateNextPage`) &lt;kbd>ArrowRight&lt;/kbd>
+&lt;/dt> &lt;dd>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled) &lt;/dd> &lt;dt>Next page (`NavigateNextPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Period&lt;/kbd>
+&lt;/dt>in reader window, move to previous or next "page" (or scroll unit, if pagination is disabled) &lt;dd> &lt;/dd>
+&lt;/dl>
+&lt;dt>Capítulo anterior (`NavigatePreviousChapter`) &lt;kbd>Alt&lt;/kbd> + &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Flecha izquierda&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, desplazarse al "capítulo" anterior (elemento del lomo en el orden de lectura de la publicación). Observe que el foco del teclado se desplaza automáticamente al punto de referencia del área "principal", que se encuentra inmediatamente antes del marco que muestra el contenido de la publicación (al igual que cuando se sigue o se activa un enlace en la tabla de contenidos).&lt;/dd>
+&lt;dt> Capítulo anterior (`NavigatePreviousChapterAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Re Pág&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, desplazarse al "capítulo" anterior (elemento del lomo en el orden de lectura de la publicación). Observe que el foco del teclado se desplaza automáticamente al punto de referencia del área "principal", que se encuentra inmediatamente antes del marco que muestra el contenido de la publicación (al igual que cuando se sigue o se activa un enlace en la tabla de contenidos).&lt;/dd>
+&lt;dt> Historial anterior (`NavigatePreviousHistory`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Retroceso&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, retroceder o avanzar en el historial de navegación: Inicio o Fin de la publicación&lt;/dd>
+&lt;dt> (`NavegarPáginaAnteriorDeLaBiblioteca`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>FlechaIzquierda&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la vista de biblioteca, muestra el conjunto anterior de libros&lt;/dd>
+&lt;dt> (`NavigatePreviousLibraryPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Coma&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la vista de la biblioteca, mostrar el conjunto anterior de libros (atajo de teclado alternativo)&lt;/dd>
+&lt;dt> Página anterior del catálogo (`NavigatePreviousOPDSPage`)&lt;/dt>
+&lt;dd> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Flecha izquierda&lt;/kbd>
+&lt;/dd>
+&lt;dt> Página anterior del catálogo (`NavigatePreviousOPDSPageAlt`)&lt;/dt> En la ventana de la biblioteca para feeds de Catálogos (OPD), activa los enlaces de paginación anteriores (atajo de teclado alternativo)&lt;dd> &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Coma&lt;/kbd>
+&lt;/dd>
+&lt;dt> Página anterior (`NavigatePreviousPage`) &lt;kbd>Flecha izquierda&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, pasar a la "página" anterior o siguiente (o desplazarse por la unidad, si la paginación está deshabilitada)&lt;/dd>
+&lt;dt> Página anterior (`NavigatePreviousPageAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Coma&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, pasar a la "página" anterior o siguiente (o desplazarse por la unidad, si la paginación está deshabilitada)&lt;/dd>
+&lt;dt> Ir al principio del libro (`NavigateToBegin`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Inicio&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, va al principio de la publicación.&lt;/dd>
+&lt;dt> Ir al final del libro (`NavigateToEnd`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Fin&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, va al final de la publicación.&lt;/dd>
+&lt;dt> Panel de información del libro (`OpenReaderInfo`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Tecla I&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación (puede usarse en futuras versiones de Thorium para una función similar en la ventana de la biblioteca)&lt;/dd>
+&lt;dt> ¿Dónde estoy? (notificación rápida compatible con lectores de pantalla) (`SpeakReaderInfoWhereAmI`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Tecla K&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, esta es la función "dónde estoy", igual que la anterior, pero solo se pronuncia a través del TTS del lector de pantalla gracias a una región en vivo ARIA con discurso asertivo que interrumpe la narración actual.&lt;/dd>
+&lt;dt> ¿Dónde estoy? (`OpenReaderInfoWhereAmI`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Tecla I&lt;/kbd>
+&lt;/dt> En la ventana del lector, cuadro de diálogo modal emergente con información de la publicación, con foco directo del teclado en la sección que muestra la jerarquía de encabezados y otra información contextual para la ubicación de lectura actual, como el salto de página anterior más cercano, así como el índice del documento en el orden de lectura (esta es la función "dónde estoy").&lt;dd>&lt;/dd>
+&lt;dt> Siguiente resultado de búsqueda (`SearchNext`) &lt;kbd>F3&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, cuando la entrada de texto de búsqueda de toda la publicación está abierta, busca la coincidencia anterior/siguiente&lt;/dd>
+&lt;dt> BuscarSiguienteAlt &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>TeclaG&lt;/kbd>
+&lt;/dt>
+&lt;dd> Lo mismo que arriba (atajo de teclado alternativo)&lt;/dd>
+&lt;dt> resultado de búsqueda anterior (`SearchPrevious`) &lt;kbd>Shift&lt;/kbd> + &lt;kbd>F3&lt;/kbd>
+&lt;/dt>
+&lt;dd> En la ventana del lector, cuando la entrada de texto de búsqueda de toda la publicación está abierta, busca la coincidencia anterior/siguiente&lt;/dd>
+&lt;dt> (`BuscarAnteriorAlt`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>Shift&lt;/kbd> + &lt;kbd>Tecla G&lt;/kbd>
+&lt;/dt>
+&lt;dd> Lo mismo que arriba (atajo de teclado alternativo)&lt;/dd>
+&lt;dt>Marcadores (`ToggleBookmark`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>TeclaB&lt;/kbd>
+&lt;/dt>
+&lt;dd>En la ventana del lector, alternar marcador (se genera una notificación para que los lectores de pantalla anuncien el cambio)&lt;/dd>
+&lt;dt> Pantalla completa (`ToggleReaderFullscreen`) &lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd>
+&lt;/dt>
+&lt;dd>En la ventana del lector, activa o desactiva el modo de pantalla completa. Ten en cuenta que esto es diferente del modo Zen. El atajo de teclado es la única forma de activar el modo de pantalla completa.&lt;/dd></description></item><item><title>Th3: Gestos táctiles</title><link>https://thorium.edrlab.org/es/th3/400_ressources/403_gesture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/403_gesture/</guid><description>
+&lt;p>Thorium Reader tiene un control limitado de gestos táctiles en pantalla. Se implementan principalmente para controlar el zoom de imágenes y pasar páginas. Es posible que también funcionen algunos gestos nativos del sistema operativo.&lt;/p>
+&lt;p>La siguiente tabla repertoria los gestos de trabajo conocidos hasta el momento.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Gestos&lt;/th>
+&lt;th>Contexto&lt;/th>
+&lt;th>Acción&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Grifo&lt;/td>
+&lt;td>Todas las vistas&lt;/td>
+&lt;td>Botón de activación&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Toque, luego seleccione y mueva los cursores&lt;/td>
+&lt;td>En el texto&lt;/td>
+&lt;td>Seleccionar texto&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Coloque un dedo en la pantalla y deslícelo horizontal o verticalmente&lt;/td>
+&lt;td>Lectura en formato desplazable&lt;/td>
+&lt;td>Voluta&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Coloque un dedo en la pantalla y deslícelo horizontalmente&lt;/td>
+&lt;td>Lectura en formato paginado&lt;/td>
+&lt;td>Pasar página&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Coloque los dedos sobre la pantalla y júntelos o estírelos.&lt;/td>
+&lt;td>Vista ampliada de la imagen&lt;/td>
+&lt;td>Acercar o alejar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mantenga pulsado&lt;/td>
+&lt;td>Todas las vistas&lt;/td>
+&lt;td>Mostrar más comandos (como hacer clic derecho)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Th3: Formatos de publicación admitidos</title><link>https://thorium.edrlab.org/es/th3/400_ressources/406_formats/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/406_formats/</guid><description>
+&lt;dl>
+&lt;dt>EPUB&lt;/dt>
+&lt;dd>(Electronic PUBlication) es un formato de archivo abierto para publicaciones electrónicas. EPUB es un formato semántico nativo que permite utilizar numerosos lenguajes estandarizados como HTML, ARIA, MATHML, SVG y otros. La versión actual 3 es conocida por ofrecer la mejor experiencia de lectura actualizada. Los archivos EPUB2 obsoletos también se pueden leer en Thorium. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>MARGARITA&lt;/dt>
+&lt;dd>El formato DAISY, que suele producirse y distribuirse en bibliotecas especializadas u ONG, ofrece una experiencia de lectura significativamente mejorada para los libros electrónicos que no están disponibles en EPUB3. Thorium admite la lectura de DAISY 3 y 2.02, tanto en su versión de solo texto, solo audio y texto y audio sincronizados.&lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>PDF&lt;/dt>
+&lt;dd> A pesar de la conocida falta de flexibilidad (sin opción de reflujo) y accesibilidad, muchos libros electrónicos todavía están disponibles solo en formato PDF, especialmente en bibliotecas públicas. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>Audiolibros&lt;/dt>
+&lt;dd> El grupo de trabajo de publicación del W3C diseñó en 2020 un &lt;a href="https://www.w3.org/TR/audiobooks/">formato estandarizado para audiolibros&lt;/a> , y EDRLab formó parte de este grupo de trabajo. Thorium respalda el formato de audiolibro &lt;a href="https://www.w3.org/TR/lpf/">empaquetado (LPF)&lt;/a> , que pronto será ampliamente utilizado por los libreros, o eso esperamos. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt>Narrativas visuales&lt;/dt>
+&lt;dd> EDRLab ha diseñado un formato estándar para cómics, manga, webtoons y otros estilos de obras digitales basados en secuencias de imágenes. &lt;a href="https://www.edrlab.org/open-standards/">Divina&lt;/a> es el nombre de este formato. Este todavía es un formato experimental y esperamos que los editores lo adapten a partir de 2021. &lt;/dd>
+&lt;/dl></description></item><item><title>Th3: Glosario</title><link>https://thorium.edrlab.org/es/th3/400_ressources/420_glossary/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/420_glossary/</guid><description>
+&lt;dl>
+&lt;dt id="bookInformation">Panel informativo del libro (Detalles del libro)&lt;/dt>
+&lt;dd> Proporciona información sobre el libro digital. Esta información se extrae de los metadatos del archivo y su calidad y cantidad dependen de la atención que el editor haya prestado durante la producción del archivo. &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="AdaptedBooks">Libros adaptados&lt;/dt>
+&lt;dd>Se trata de libros digitales producidos por asociaciones y puestos a disposición de personas con discapacidad para su lectura. En todo el mundo, este sistema se rige por &lt;a href="https://www.wipo.int/marrakesh_treaty/en/">el Tratado de Marrakech&lt;/a> . &lt;/dd>
+&lt;/dl>
+&lt;dl>
+&lt;dt id="OPDS">OPDS&lt;/dt>
+&lt;dd> Sistema de distribución de publicaciones abiertas &lt;/dd>
+&lt;/dl></description></item><item><title>Th3: Preguntas frecuentes</title><link>https://thorium.edrlab.org/es/th3/400_ressources/430_faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/430_faq/</guid><description>
+&lt;dl>
+&lt;dt id="fullscreen">¿Cómo puedo disfrutar de Thorium en pantalla completa?
+&lt;/dt>
+&lt;dd>
+&lt;p>
+&lt;kbd>Ctrl&lt;/kbd> + &lt;kbd>F11&lt;/kbd> en una ventana del lector activará esta ventana en modo de pantalla completa. Tenga en cuenta que esto es diferente del modo Zen disponible en el pictograma superior derecho. El atajo de teclado es la única forma de pasar al modo de pantalla completa.
+&lt;/p>
+&lt;/dd>
+&lt;dt id="manually_manage_files">¿Por qué no puedo abrir un libro electrónico sin que esté guardado en la biblioteca de Thorium Reader?
+&lt;/dt>
+&lt;dd>
+Thorium, al igual que muchos otros lectores de libros electrónicos y sistemas de lectura, almacena las publicaciones importadas en su propio espacio de sistema de archivos, ya que esto proporciona una garantía de que el estado de cada publicación y los metadatos externos (por ejemplo, marcadores, configuraciones, anotaciones, estado de DRM, etc.) se pueden adjuntar de manera confiable.
+&lt;/dd>
+&lt;dt id="PDFsupport">¿Por qué no hay lectura en voz alta ni anotaciones para los archivos PDF?
+&lt;/dt>
+&lt;dd>EDRLab considera que EPUB 3 es un formato de libro electrónico mucho mejor que PDF y, por lo tanto, prioriza su trabajo para ofrecer una gran experiencia a los usuarios de EPUB. En Thorium Reader, las funciones avanzadas como TTS y anotaciones están disponibles primero para EPUB y esperamos que otros desarrolladores de aplicaciones obtengan lo mejor de los archivos PDF. Esto no significa que las funciones avanzadas nunca estarán disponibles en PDF en Thorium, simplemente que nuestro presupuesto limitado se utiliza para lo que consideramos mejor para los lectores de libros electrónicos.
+&lt;/dd>
+&lt;dt id="PDFrotate">He girado accidentalmente mis páginas PDF, ¿cómo puedo recuperarlo?
+&lt;/dt>
+&lt;dd>
+&lt;p>Los atajos para rotar páginas PDF son:&lt;/p>
+&lt;ul>
+&lt;li>Girar el documento en el sentido de las agujas del reloj: r&lt;/li>
+&lt;li>Girar el documento en sentido contrario a las agujas del reloj: shift + r&lt;/li>
+&lt;/ul>
+&lt;/dd>
+&lt;dt id="TTSvoices">No puedo seleccionar la voz adecuada para la función de lectura en voz alta (TTS)&lt;/dt>
+&lt;dd>Thorium utiliza las voces del sistema operativo de la computadora, en combinación con la información del idioma proporcionada por el libro.
+&lt;ul>
+&lt;li>Si está utilizando Windows, puede seguir &lt;a href="https://support.microsoft.com/en-us/windows/download-language-pack-for-speech-24d06ef3-ca09-ddcc-70a0-63606fd16394">la guía de Microsoft Descargar el paquete de idioma para voz&lt;/a> .&lt;/li>
+&lt;li>Si está utilizando Mac OSX, la guía &lt;a href="https://support.apple.com/guide/mac-help/change-the-voice-your-mac-uses-to-speak-text-mchlp2290/mac">Cambiar la voz que usa Mac para pronunciar texto&lt;/a> .&lt;/li>
+&lt;/ul>
+&lt;p>Una vez instalada la voz requerida, Thorium elegirá la voz correspondiente al idioma del libro.&lt;/p>
+&lt;p>Puede suceder que el libro tenga el idioma incorrecto. En este caso, Thorium le permite cambiar la voz a una que esté presente en el sistema a través del menú Voz&lt;/p>
+&lt;/dd>
+&lt;dt id="localStorage">¿Cómo puedo transferir toda la colección de libros de una máquina a otra?&lt;/dt>
+&lt;dd> Tener una interfaz de usuario para exportar todo el catálogo no es una prioridad actualmente.
+&lt;p>Las publicaciones se almacenan en un directorio conocido.&lt;/p>
+&lt;ul>
+&lt;li>Windows10 : C:\Users\ &lt;em>user name&lt;/em> \AppData\Roaming\EDRLab.ThoriumReader\publications\&lt;/li>
+&lt;li>MacOS : /Users/ &lt;em>user name&lt;/em> /Library/Application Support/EDRLab.ThoriumReader/&lt;/li>
+&lt;li>Debian: /home/ &lt;em>user name&lt;/em> /.config/EDRLab.ThoriumReader/publications-dev/&lt;/li>
+&lt;/ul>
+&lt;p>En caso de una migración de una computadora a otra o casos de uso similares, puede copiar todos los archivos de libros electrónicos en este reposiThorium y abrirlos en la nueva instalación de Thorium.&lt;/p>
+&lt;/dd>
+&lt;/dl></description></item><item><title>Th3: ¿Atascado?</title><link>https://thorium.edrlab.org/es/th3/400_ressources/904_issues/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://thorium.edrlab.org/es/th3/400_ressources/904_issues/</guid><description>
+&lt;p>Si no encuentra la respuesta a su problema en este sitio, puede informarnos su problema a través de nuestra &lt;a href="https://github.com/edrlab/thorium-reader-doc/issues/new">herramienta de seguimiento de soporte&lt;/a> o &lt;a href="https://www.edrlab.org/contact/">formulario de contacto&lt;/a> .&lt;/p>
+&lt;p>Aquí está la información que necesitamos:&lt;/p>
+&lt;ul>
+&lt;li>Sistema operativo y su versión&lt;/li>
+&lt;li>Versión de Thorium (está indicada en la parte inferior de la biblioteca bajo el título &lt;code>About Thorium&lt;/code> )&lt;/li>
+&lt;/ul></description></item></channel></rss>
